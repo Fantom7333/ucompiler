@@ -1,0 +1,11 @@
+.BackButton {
+    font-size: 25pt;
+    cursor: pointer;
+    color: #fff;
+    transition: all .22s ease-in;
+    width: min-content;
+}
+
+.BackButton:hover{
+    opacity: .7;
+}

@@ -1,0 +1,32 @@
+.Square {
+    margin: 20px 10px;
+    width: max-content;
+    min-width: 150px;
+    height: 100px;
+    background-color: #70c452;
+    text-align: center;
+    border-radius: 1vh;
+    
+}
+
+.Square_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Square_wrapper h4 {
+    color: #fff;
+    /* vertical-align: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-top: 4vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+
+.NotAllowedSquares {
+    background-color: #a0a0a0;
+}

@@ -1,0 +1,128 @@
+@import "../../variables.css";
+
+.CreateCourse {
+    min-height: 100vh;
+    padding-bottom: 1vh;
+    /* background-color: #000000; */
+    /* background-image: var(--mainBG_gradient); */
+}
+
+.wrapper {
+    /* margin-top: 10vh; */
+    margin: 10vh 10vh 10vh 10vh;
+    padding: 3vh;
+    text-align: center;
+    color: #fff;
+    border-radius: 1vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.wrapper select {
+    background-color: #70c452;
+    color: #fff;
+    padding: 10px;
+}
+
+.wrapper_courseImageFileContainer { 
+    margin: 0 auto;
+    margin-left: 1vh;
+}
+
+.wrapper_courseImageFileContainer img {
+    margin-top: 0;
+}
+
+.wrapper_courseImageFileContainer label{
+    margin-top: 1vh;
+}
+
+.wrapper_courseImageFileContainer input {
+    /* width: 70vw; */
+    /* height: 10vh; */
+    color: #fff;
+    border-bottom: solid 2px rgba(101, 196, 91, 0.8);
+}
+
+.wrapper_aboutCourseContainer textarea {
+    /* width: 40vw; */
+    /* height: 10vh; */
+}
+
+.wrapper_submitButtonContainer {
+    margin-top: 5vh;
+}
+
+.wrapper_submitButtonContainer button{
+    /* margin-bottom: 5vh; */
+}
+
+.courseImageFile {
+    display: none;
+}
+
+.wrapper_dispalySelectedImage {
+    margin: 1em auto;
+    width: 250px;
+    height: 200px;
+    border: 2px dashed #70c452;
+}
+.wrapper_dispalySelectedImage img {
+    margin-left: auto;
+    width: 246px;
+    height: 196px;
+}
+
+.wrapper_courseNameContainer {
+    margin-top: 5vh;
+}
+.wrapper_courseNameContainer input {
+    width: 20vw;
+    height: 3vh;
+    margin-left: 0vh;
+    color: #fff;
+}
+
+.wrapper_aboutCourseContainer textarea{
+    width: 60vw;
+    color: #fff;
+}
+
+.wrapper_dispalySelectedImage i {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+}
+
+.falkeRound {
+    padding: 20px;
+    text-align: center;
+    background-color: green;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    word-wrap: break-word;
+    margin: 0 auto;
+    margin-top: 5vh;
+    color: #fff;
+}
+.Round_wrapper {
+    z-index: 70;
+}
+
+
+.wrapper_courseImageFileContainer_wrapper {
+    margin: 0 auto;
+}
+
+.InputAboutCourse {
+    width: 40vw;
+    border-bottom: solid 2px rgba(101, 196, 91, 0.8);
+}

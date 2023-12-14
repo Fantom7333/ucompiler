@@ -1,0 +1,59 @@
+.Drawer {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 80%;
+    max-width: 300px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    background-color: #0d0d28;
+/* background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%); */
+
+
+    transform: translateX(0px);
+    transition: transform .22s ease-in;
+    z-index: 100;
+}
+
+.Drawer.close {
+    transform: translateX(300px);
+}
+
+.Drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Drawer ul li {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.Drawer ul li a {
+    /* color: #363d54;
+     */
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    position: relative;
+    padding: 0 20px 10px 20px;
+    transition: opacity .3s;
+}
+
+
+.Drawer ul li a.active {
+    color: red;
+}
+
+
+.Drawer ul li a:hover, .active {
+    opacity: .7;
+}
+
+.Drawer_logoutButton {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}

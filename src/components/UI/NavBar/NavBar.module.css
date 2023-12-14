@@ -1,0 +1,40 @@
+@import '../../../variables.css';
+
+.NavBar {
+  height: 8.45vh;
+  background-color: var(--navBar_bg);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5.5vw;
+}
+
+.NavBar img {
+  margin-left: 0.5vh;
+  height: 8vh;
+}
+
+.userAvatar {
+  height: 7vh;
+  padding: 0.3vh;
+  border: .5px solid #3fa759;
+  border-radius: 2vw;
+  opacity: .85;
+  box-shadow: 0 0 10px #005c17;
+
+}
+
+.NavBar_LogIn_And_Register {
+  display: flex;
+  align-items: center;
+  background-color: var(--navBar_bg_settings);
+}
+
+.NavBar_LogIn_And_Register img {
+  /* width: 60px; */
+  box-shadow: .3vh .3vh .3vh rgba(0, 0, 0, 0.2);
+  height: 7vh;
+}
+
+.NavBar_LogIn_And_Register_button {
+  margin: 0 10px;
+}
