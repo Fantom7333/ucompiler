@@ -5,7 +5,6 @@ import AceSettings from './AceSettings/AceSettings'
 import Cookies from 'js-cookie'
 import axiosApp from '../../axios/axiosApp'
 import Loader from '../../components/UI/Loader/Loader'
-
 // import "ace-builds/src-noconflict/mode-java";
 // import "ace-builds/src-noconflict/mode-python";
 // import "ace-builds/src-noconflict/mode-csharp";
@@ -95,7 +94,7 @@ export default class AceCodeEditor extends Component {
     console.log(this.props.relativeSize)
     return (
       <div className={classes.AceEditor}>
-        <AppBar position="static" color="transparent" style={{ backgroundColor: '#777a6d', height: '63px' }}>
+        <AppBar position="static" color="transparent" style={{ backgroundColor: '#777a6d', height: '70px' }}>
           <Toolbar>
             <IconButton onClick={this.settingsOpenHandler} edge="start" color="inherit">
               <SettingsIcon />
@@ -176,7 +175,9 @@ export default class AceCodeEditor extends Component {
             this.setState({ mode })
           }}
         />
+
       </div>
     )
+          
   }
 }

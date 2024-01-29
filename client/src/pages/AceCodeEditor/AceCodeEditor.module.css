@@ -1,14 +1,13 @@
 .AceCodeEditor {
     padding: 10px;
-    border: 2px solid #242726;
-    background-color: #EFF5DB;
+    border: 2px solid #e3fbf3;
+    background-color: #e5f4b3;
 }
 
 .output {
     width: 100%;
     border: 2px solid #1c1d1d;
     text-align: left;
-    
 }
 
 

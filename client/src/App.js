@@ -1,5 +1,5 @@
 import React from 'react'
-
+import LinksPage from './components/LinksSocialMedia/LinksSocialMedia'
 import { Route, Switch, withRouter } from 'react-router-dom'
 
 import Authentication from './pages/Authentication/Authentication'
@@ -90,7 +90,7 @@ class App extends React.Component {
 
             <Route exact path="/">
               {' '}
-              <AceCodeEditor />{' '}
+              <AceCodeEditor height="50vh"/>{' '}
             </Route>
             <Route path="*">
               {' '}
@@ -103,10 +103,10 @@ class App extends React.Component {
 
     return (
       <div className="App">
-        <Background>
-          <AuthRouterHandler />
+          <Background>
+          <AceCodeEditor></AceCodeEditor>
         </Background>
-      </div>
+       </div>
     )
   }
 }
@@ -128,3 +128,4 @@ function mapDispatchToProps(dispatch) {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(withRouter(App))
+
