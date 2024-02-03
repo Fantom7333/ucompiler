@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import classes from './LinksPolitics.module.sass'
 import PrivacyPolitic from "./PrivacyPolitic.pdf"
-import UserConfirmation from "./UserConfirmation.txt"
+import UserConfirmation from "./UserConfirmation.pdf"
 const ahref = "https://ucompiler.ru"
 
 

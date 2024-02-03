@@ -10,7 +10,8 @@ const Background = ({children}) => {
       <div className={classes.ClassForUrls}>
       <LinksPage></LinksPage>
       <LinksPolitics></LinksPolitics>
-      <div></div>
+      <div>
+      </div>
       </div>
     </div>
     )
